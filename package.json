@@ -23,11 +23,8 @@
   },
   "engines": {
     "node":"10.16.0"
-  }
-
-
-
   },
+
   "eslintConfig": {
     "extends": "react-app"
   },
