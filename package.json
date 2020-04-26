@@ -9,7 +9,6 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
-    "jquery": "^1.9.1",
     "react": "^16.13.1",
     "react-datepicker": "^2.14.1",
     "react-dom": "^16.13.1",
@@ -20,10 +19,18 @@
   "scripts": {
     "start": "node backend/server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "engines": {
-    "node":"10.16.2"
-  },
+
+"engines": {
+  "node":"10.16.0"
+},
+
+
+
 
   "eslintConfig": {
     "extends": "react-app"
