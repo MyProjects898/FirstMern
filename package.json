@@ -2,8 +2,6 @@
   "name": "mern-test",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-   "node": "12.16.2"}
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -16,7 +14,7 @@
     "react-dom": "^16.13.1",
     "react-map-gl": "^5.2.5",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"}
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
