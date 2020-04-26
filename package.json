@@ -17,9 +17,6 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "node index.js",
-    "build": "ng build",
-    "heroku-postbuild": "ng build --prod" // this will be run on Heroku
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
