@@ -17,11 +17,18 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "heroku-postbuild": "echo This runs afterwards."
     "start": "node index.js",
     "build": "ng build",
     "heroku-postbuild": "ng build --prod"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
 
+"engines": {
+  "node":"10.16.2"
+},
 
 
 
